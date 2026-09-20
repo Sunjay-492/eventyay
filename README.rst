@@ -165,7 +165,7 @@ Install external dependencies on Debian or Ubuntu:
 
 .. code-block:: bash
 
-   xargs -a deb-packages.txt sudo apt install
+   xargs -a deb-packages.txt sudo apt install -y
 
 For Nushell:
 
